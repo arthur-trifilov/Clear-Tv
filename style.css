@@ -1,0 +1,248 @@
+body{
+    background-image: url(../img/fon.png);
+}
+.container{
+    width: 1140px;
+    max-width: 100%;
+}
+.header{
+    margin-bottom: 50px;
+}
+.header_logo{
+    margin: 50px auto;
+    width: 100%;
+}
+.you{
+    width: 524px;
+    height:300px;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+.rect{
+    width: 1200px;
+    border-radius:20px;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.forma{
+    background-color: #7fc7ff;
+    width: 270px;
+    height: 370px;
+    background: rgba(235	215	114, 0.7);
+    border-radius:10px;
+    max-width: 40%;
+}
+.in{
+    display:flex;
+    flex-direction:column;
+    width: 270px;
+    flex-wrap: wrap;
+    height: 300px;
+    max-width: 100%;
+}
+.i1{
+    border-radius:10px;
+    height:40px;
+    margin:7px auto;
+    width: 230px;
+    max-width: 100%;
+}
+.but {
+    width:210px;
+    height:50px;
+    border-radius:10px;
+    background-color: #3066ca;
+    font-size:20px;
+    font-weight:bold;
+    border:2px solid black;
+    color:#ffffff;
+    text-transform: uppercase;
+    margin: 0px 0 0 20px ;
+    max-width: 100%;
+}
+.section{
+    background-color: #7ec1da;
+    flex-wrap: nowrap;
+}
+.section_footer{
+padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+.section_logo_image{
+    max-width: 100%;
+}
+.image_section_footer {
+    max-width: 100%;
+    width: 245px;
+}
+.footer_image{
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.footer_image_logo {
+    width: 168px;
+    height: 135px;
+    max-width: 50%;
+}
+.footer_image_logo:last-child {
+    width: 550px;
+    height: 150px;
+    max-width: 100%;
+}
+h2 {
+    margin-bottom: 2.5rem;
+}
+.footer_all {
+    flex-wrap: nowrap;
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+    .section_footer {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .but {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .but {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1,  h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu,  output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
